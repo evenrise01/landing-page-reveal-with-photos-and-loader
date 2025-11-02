@@ -27,6 +27,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 h1 {
@@ -59,6 +60,7 @@ p {
   height: 100svh;
   background-color: var(--bg);
   overflow: hidden;
+  isolation: isolate;
 }
 
 .hero-bg {
@@ -70,6 +72,7 @@ p {
   background-color: var(--loader-bg);
   transform-origin: bottom;
   transform: scaleY(0%);
+  will-change: transform;
 }
 
 .counter {
@@ -81,11 +84,13 @@ p {
   font-size: 120px;
   line-height: 150px;
   clip-path: polygon(0 0, 100% 0, 100% 120px, 0 120px);
+  will-change: opacity;
 }
 
 .digit {
   position: relative;
   top: -15px;
+  will-change: transform;
 }
 
 .num1offset1 {
@@ -104,6 +109,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
+  will-change: contents;
 }
 
 .images-container .img {
@@ -114,6 +120,10 @@ p {
   aspect-ratio: 5/3;
   border-radius: 0.75rem;
   overflow: hidden;
+  will-change: contents;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .images-container .img.animate-out {
