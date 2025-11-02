@@ -1,4 +1,4 @@
-import Image from "next/image";
+import "./index.css";
 
 export default function Home() {
   return (
@@ -55,10 +55,10 @@ export default function Home() {
             <img src="/img-13.jpg" alt="" />
           </div>
           <div className="img">
-            <img src="/img-14.jpg" alt="" />
+            <img src="/img-15.jpg" alt="" />
           </div>
           <div className="img">
-            <img src="/img-15.jpg" alt="" />
+            <img src="/img-14.jpg" alt="" />
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Home() {
 
         <div className="sidebar">
           <div className="logo">
-            <img src="/logo.png" alt="" />
+            <img src="/logo.jpg" alt="" />
           </div>
           <div className="divider"></div>
         </div>

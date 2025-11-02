@@ -16,6 +16,10 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --bg: #f1efe7;
+    --fg: #1f1f1f;
+    --loader-bg: #e0e0d8;
+    --stroke: rgba(0, 0, 0, 0.2);
   }
 }
 
