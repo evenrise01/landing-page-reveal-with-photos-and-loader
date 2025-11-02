@@ -17,9 +17,6 @@ A stunning, performance-optimized portfolio landing page featuring advanced GSAP
 - 🎨 **Modern Aesthetic** - Clean, minimal design with sophisticated animations
 - 🏗️ **Modular Architecture** - Well-organized, maintainable codebase
 
-## 🚀 Demo
-
-[View Live Demo](#) <!-- Add your demo link here -->
 
 ## 📋 Prerequisites
 
@@ -204,17 +201,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/evenrise-portfolio](https://github.com/yourusername/evenrise-portfolio)
+Project Link: [https://github.com/evenrise01/landing-page-reveal-with-photos-and-loader](https://github.com/evenrise01/landing-page-reveal-with-photos-and-loader)
 
 ---
 
 ⭐ If you found this project helpful, please give it a star!
 
-## 🐛 Known Issues
 
-- SplitText is a premium GSAP plugin - you'll need a GSAP membership or use an alternative
 - Images should be optimized for web before adding to the project
 
 ## 🔮 Future Enhancements
